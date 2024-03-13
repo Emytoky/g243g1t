@@ -1,69 +1,112 @@
-.conteudo{
+.conteudo {
     width: 100%;
     text-align: center;
 }
-.btn{
-    margin-top: 100px;
-    background: roxo;
-    width: 50%;
-    font-size: 40px;
-}
-body{
-    background-color: aqua;
-}
-.tablet{
-    display: none;
-}
-.desktop{
-    display: none;
-}
-.barra{
+.btn {
+    background-color: rgb(158, 182, 214);
     width: 100%;
-    height: 50px;
-    background-color: rgb(205, 152, 253);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#a1{
+    display: none;
+}
+#a2{
+    display: none;
+}
+#a3{
+    display: none;
+}
+#a4{
+    display: none;
+}
+#a5{
+    display: none;
+}
+.aba1{
+    background-color: yellowgreen;
+    width: 100%;
+    height: 400px;
+}
+.aba2{
+    background-color: burlywood;
+    width: 100%;
+    height: 400px;
+}
+.aba3{
+    background-color:blueviolet;
+    width: 100%;
+    height: 400px;
+}
+.aba4{
+    background-color: royalblue;
+    width: 100%;
+    height: 400px;
+}
+.aba5{
+    background-color: red;
+    width: 100%;
+    height: 400px;
+}
+body {
+   background-color: rgb(33, 73, 255);
+}
+.tablet {
+    display: none;
+}
+.desktop {
+    display: none;
+}
+.barra {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(113, 145, 211);
     text-align: center;
 }
-.mobile{
-    font-size: 50px;
-    color: antiquewhite;
-   
+.mobile {
+    font-size: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  rgb(255, 55, 55);
+
 }
-@media (min-width:720px) {
-    .barra{
-        height: 80px;
-        background-color: rgb(240, 91, 91);
+@media (min-width: 720px) {
+    .barra {
+       height: 80px;
+       background-color: rgb(212, 83, 32);
     }
-    .mobile{
-        display: none;
+    .mobile {
+       display: none;
     }
-    .tablet{
+    .tablet {
         display: inline;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 60px;
-        color: azure;
+        color:   rgb(251, 254, 255);
     }
-    .conteudo{
+    .conteudo {
         text-align: right;
     }
-    .btn{
-        margin-top: 0px;
-        font-size: 24px;
+    .btn {
+        margin-top: 100px;
+        background-color: rgb(168, 189, 235);
+        width: 50%;
+        font-size: 40px;
     }
 }
-@media (min-width: 1228px) {
-    .barra{
+@media (min-width:1228px){
+    .barra {
         height: 100px;
-        background-color:  rgb(24, 155, 155);
+        background-color:rgb(48, 64, 97);
     }
-    .tablet{
-        display: none;  
+    .tablet {
+        display: none;
     }
-    .desktop{
+    .desktop {
         display: inline;
         font-size: 80px;
-        color:white;
+        color: rgb(255, 255, 255);
     }
-    .conteudo{
+    .conteudo {
         text-align: left;
     }
 }
-
