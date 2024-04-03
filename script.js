@@ -63,8 +63,8 @@ let contar = null;
 let inicio = 0 ;
 let fim = 0;
 function iniciarContagem(){
-    let inicio = document.getElementById("inicio").value;
-    let fim = document.getElementById("fim").value;
+     inicio = document.getElementById("inicio").value;
+     fim = document.getElementById("fim").value;
  contar = setInterval(() =>{
      contador();
 },1000);
