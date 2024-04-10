@@ -32,7 +32,6 @@
             <div id=" a1" class="aba1"></div>
             <div class="abageral aba1" id="aba1"><span id="h"></span></div>
         </div>
-
             <div id="a2" class="aba2">
                 contador de: <input type="number" id="inicio">
                 até: <input type="number" id="fim"><br>
@@ -40,7 +39,14 @@
                  <span id="valor"></span>
                 
             </div>
-            <div id="a3" class="aba3">Estou na aba 3</div>
+            <div id="a3" class="aba3">
+                <h3>Alarme</h3>
+                <input type="number" id="hd" max="23" min="0" class="desp">:
+                <input type="number" id="md" max="59" min="0" class="desp">:
+                <input type="number" id="sd" max="59" min="0" class="desp">:
+                <br></br>
+                <button onclick="ligar_alarme()">Ligar Alarme</button>
+            </div>
             <div id="a4" class="aba4">Estou na aba 4</div>
             <div id="a5" class="aba5">Estou na aba 5</div>
         </div>
