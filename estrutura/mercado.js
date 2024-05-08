@@ -49,5 +49,5 @@ const caixa1ChamaProximo = () => {
     for(let i=1; i<= 15; i++){
         f1.enfilerar(Cliente("C"+i,gerarItens()));
     }
-
+    caixa1ChamaProximo();
 })();
